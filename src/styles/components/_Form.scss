@@ -1,0 +1,16 @@
+.FormBox{
+  grid-area: form;
+  h2{
+    margin-bottom: 15px;
+  }
+  .Form{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 15px;
+    gap: 30px;
+  }
+  .btnBox{
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,46 @@
+.Switch{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-area: switch;
+  gap: 20px;
+  .Options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 48px;
+    button{
+      width: 100%;
+      height: 100%;
+      color: $Font;
+      background-color: #101010;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      transition: .5s all;
+      color: #333333;
+      cursor: pointer;
+    }
+    button.active{
+      background: #000000;
+      border: 3px solid #FFFFFF;
+      box-shadow: 0 0 10px rgba(33,156,243,.5),
+                  0 0 20px rgba(33,156,243,.5),
+                  inset 0 0 10px rgba(33,156,243,1);
+      color: #FFFFFF;
+      text-shadow: 0 0 10px rgba(33,156,243,.5),
+                    0 0 10px rgba(33,156,243,.5);
+    }
+  }
+  .graphic{
+    width: 100%;
+    padding-bottom: calc(100% * (317 / 440));
+    position: relative;
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  min-height: 100%;
+  width: 100%;
+  background-color: $Bg-Primary;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+h1,h2,h3,h4,h5{
+  font-weight: 700;
+  color: $Font;
+  font-family: 'Poppins', sans-serif;
+}
+p,span,a,label{
+  font-weight: 400;
+  color: $Font;
+  font-family: 'Poppins', sans-serif;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

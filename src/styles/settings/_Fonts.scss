@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+$fs-t1: 39.06px;
+$lh-t1: 46px;
+
+$fs-t2: 31.25px;
+$lh-t2: 37px;
+
+$fs-s1: 25px;
+$lh-s1: 29px;
+
+$fs-s2: 20px;
+$lh-s2: 23px;
+
+$fs-body: 16px;
+$lh-body: 19px;
+
+$fs-small: 12.8px;
+$lh-small: 15px;
+
+.f-title1{
+  font-size: $fs-t1;
+  line-height: $lh-t1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.f-title1-b{
+  font-size: $fs-t1;
+  line-height: $lh-t1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.f-title2{
+  font-size: $fs-t2;
+  line-height: $lh-t2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.f-title2-b{
+  font-size: $fs-t2;
+  line-height: $lh-t2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.f-subtitle1{
+  font-size: $fs-s1;
+  line-height: $lh-s1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.f-subtitle1-b{
+  font-size: $fs-s1;
+  line-height: $lh-s1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.f-subtitle2{
+  font-size: $fs-s2;
+  line-height: $lh-s2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.f-subtitle2-b{
+  font-size: $fs-s2;
+  line-height: $lh-s2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.f-body{
+  font-size: $fs-body;
+  line-height: $lh-body;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.f-body-b{
+  font-size: $fs-body;
+  line-height: $lh-body;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.f-small{
+  font-size: $fs-small;
+  line-height: $lh-small;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.f-small-b{
+  font-size: $fs-small;
+  line-height: $lh-small;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
